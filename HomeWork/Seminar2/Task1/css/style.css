@@ -1,0 +1,47 @@
+
+.bg-ex-img {
+    background-image: url(../img/image_canvas.png);  /*Путь к картинке*/
+    background-repeat: no-repeat; /* Картинка фона без повторения */
+    background-position: center; /* Позиция фона по центру */
+    background-color: rgb(249, 242, 245);
+}
+
+.border {
+    border: 3px solid #ff0000;
+}
+
+.header_text {
+    font-size:50px;
+    font-weight:900;
+    COLOR:#FFf;
+    text-align: center;
+    line-height: 79px;
+}
+
+header {
+    display: block; /* Для старых браузеров */
+    height: 70px; /* Высота шапки */
+    background-color: rgb(251, 0, 0);
+}
+
+body {
+    font-family: "Sofia Sans Condensed", "Arial", sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.container div{
+    width: 40%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+.container div:nth-child(1) {
+   float:left;
+}
+
+.container div:nth-child(2) {
+   float:right;
+}
