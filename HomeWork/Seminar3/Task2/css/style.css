@@ -1,0 +1,29 @@
+
+.canvas {
+    font-family: 'Sono', sans-serif;
+    background-color: rgb(165, 208, 251);
+}
+
+.total_text {
+    font-size:50px;
+    font-weight:900;
+    COLOR:#fd0000;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 2px dotted rgb(0, 0, 0); */
+    display: flex;              /* Создаем гибкий контайнер */
+    justify-content: center;    /* Центруем контейнеры внутри гибкого контейнера по главной оси */
+    align-items: center;        /* Центруем контейнеры внутри гибкого контейнера по вспомогательной оси */
+}
+
+.block {
+    /* border: 2px dotted rgb(0, 0, 0); */
+    margin: 5px;
+    text-align: center;
+}
