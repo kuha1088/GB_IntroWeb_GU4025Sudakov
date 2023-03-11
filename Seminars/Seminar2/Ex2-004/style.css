@@ -1,0 +1,62 @@
+body
+{
+    background-color: rgb(158, 163, 163);
+}
+
+h1
+{
+    color: rgb(255, 0, 0);
+}
+
+h2
+{
+    color: rgb(255, 98, 0);
+}
+
+a
+{
+    color: rgb(2, 67, 26);
+}
+
+img
+{
+    width: 292,6px;
+    height: 440px;
+    margin-left: 75px;
+}
+
+@font-face {
+	font-family: 'beer money';
+	src: url('fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+p
+{
+    font-family: 'beer money', sans-serif;
+}
+
+.big_text
+{
+    font-size: 2rem;
+}
+
+a:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+   }
+
+ul
+{
+   list-style-type: square;
+}
+
+.content
+{
+    max-width: 500px;
+    margin: auto;
+}
