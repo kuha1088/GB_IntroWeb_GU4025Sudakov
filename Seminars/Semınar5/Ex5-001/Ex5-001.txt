@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books>
+    <book>
+        <book_name>Камил видит руками</book_name>
+        <book_author>Томаш Малковски</book_author>
+        <book_pages_number>146</book_pages_number>
+        <book_date>2019</book_date>
+        <book_price>863</book_price>
+    </book>
+    <book>
+        <book_name>Вероятности и неприятности</book_name>
+        <book_author>Сергей Самойленко</book_author>
+        <book_pages_number>134</book_pages_number>
+        <book_date>2022</book_date>
+        <book_price>1055</book_price>
+    </book>
+</books>

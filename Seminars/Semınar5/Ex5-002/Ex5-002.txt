@@ -1,0 +1,16 @@
+[
+  {
+   "product": "Яблоки",
+   "weight": 1000,
+   "gorup": "Фрукты",
+   "price": 150,
+   "number": 1
+  },
+  {
+   "product": "Апельсины",
+   "weight": 1200,
+   "gorup": "Фрукты",
+   "price": 200,
+   "number": 2
+  },
+]
